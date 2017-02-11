@@ -1,22 +1,15 @@
-
-<!-- Demo Layout for Bootstrap (with panels) -->
 <!DOCTYPE html>
 <html lang="en-us">
 
 <head>
-
   <meta charset="UTF-8">
   <title>Chris Ward Portfolio</title>
-
-  <!-- We need to bring in the bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <!-- NavBar (copied and pasted from WC3) -->
-  <!-- Static navbar -->
   <nav class="navbar navbar-default">
     <div class="container">
       <div class="navbar-header">
@@ -26,7 +19,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-        <a class="navbar-brand" href="#">Chris Ward</a>
+        <p class="headerbox">Chris Ward</p>
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <!---<ul class="nav navbar-nav">
@@ -48,7 +41,7 @@
         </ul>
         -->
         <ul class="nav navbar-nav navbar-right">
-          <li><a href=index.html">About<span class="sr-only">(current)</span></a></li>
+          <li><a href="index.html">About<span class="sr-only">(current)</span></a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -58,15 +51,12 @@
     <!--/.container-fluid -->
   </nav>
 
-  <!-- Main Body goes in Container -->
-  <div class="container">
+  <div class="container bgwhite">
     <div class="row">
 
-      <!-- The content in this div gets wrapped in a panel -->
       <div class="col-lg-8">
         <div class="panel-body">
-          <h1>About Me</h1>
-          <hr>
+          <h1 class="txtclr">About Me</h1><hr>
         </div>
       </div>
 
@@ -100,12 +90,13 @@
 
       </div>
     </div>
-   
+</div>
+
+<div class="container footerbox"></div>
+   <div class="container foot">
     <div class="row">
       <div class="col-lg-12">
-
-        <!-- The content in this div gets wrapped in a panel -->
-		<h4>(C)Copyright 2016 Chris Ward<h4>
+      	<h4>(C)Copyright 2016 Chris Ward</h4>
       </div>
     </div>
   </div>
